@@ -1,0 +1,11 @@
+f = open("virus.txt","w")
+p = "Jinga lala hu hu"
+w = f.write(p)
+f.close()
+f = open("virus.txt","a")
+a = f.write("\nyaa hoo")
+f.close()
+f = open("virus.txt","r")
+r = f.read()
+print(r)   
+f.close()
