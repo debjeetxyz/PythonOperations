@@ -56,7 +56,7 @@ def area():
     print("The area of the triangle is: ", area)
 
 k = 'y'
-while k == 'y':
+while k == 'y' or k == 'Y':
     if check() == True:
         type()
         perimeter()
