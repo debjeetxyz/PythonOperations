@@ -23,8 +23,8 @@ def peek(stk):
     if isempty(stk):
         return "Underflow"
     else:
-            top = len(stk) - 1
-            return stk[top]
+        top = len(stk) - 1
+        return stk[top]
 
 def display(stk):
     if isempty(stk):
